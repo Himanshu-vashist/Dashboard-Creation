@@ -9,7 +9,6 @@ import {
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
 
-// Register the necessary modules
 ChartJS.register(CategoryScale, LinearScale, BarElement, Tooltip, Legend);
 
 const data = {
